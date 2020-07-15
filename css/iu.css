@@ -1,5 +1,5 @@
 /* Animations */
-/******************************************/
+/**************/
 @keyframes fadeInAnimation {
 	0% {
 		opacity: 0;
@@ -9,13 +9,11 @@
 	}
 }
 
-/* Body */
-body{
-	margin: 0 !important;
-	padding: 0 !important
-}
+/* Reusable Classes */
+/****************************************************************************/
+
 /* Navigation Bar */
-/******************************************/
+/******************/
 .navbar {
 	background-color: #19615C;
 	overflow: hidden;
@@ -23,6 +21,9 @@ body{
 	margin-bottom: 5px;
 	margin: 5px;
 }
+
+/* Reusable Classes END */
+/****************************************************************************/
 
 .navbar a {
 	float: right;
@@ -45,41 +46,51 @@ body{
 }
 
 /* Homepage */
-/*******************************************/
+/************************************************************************/
 .homepage {
 	background-color: #FFFFFF;
 
 }
 
-/* Content */
-/*******************************************/
-.content {
+/* Homepage_Content */
+/********************/
+.homepage_content {
 	animation: fadeInAnimation ease 3s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
 	overflow: auto;
 }
 
-.content .image {
-	border-radius: 15px;
-	width:575px;
-	height:auto;
-	margin-top: 10px;
-	margin-left: 20px;
+	.homepage_content .image {
+		border-radius: 15px;
+		width:575px;
+		height:auto;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+	.homepage_content .title {
+		animation: fadeInAnimation ease 60s;
+		position: absolute;
+		top: 340px;
+		left: 605px;
+		transform: translate(-50%, -50%);
+		font-family: "Annie Use Your Telescope";
+		font-weight: 900;
+		font-size: 120px;
+		color: #91FFFF;
+	}
+
+/* Homepage END */
+/**************************************************************************/
+
+
+/* Discography */
+.discography {
+	background-color: #FFFFFF;
 }
 
-.content .title {
-	animation: fadeInAnimation ease 60s;
-	position: absolute;
-	top: 340px;
-	left: 605px;
-	transform: translate(-50%, -50%);
-	font-family: "Annie Use Your Telescope";
-	font-weight: 900;
-	font-size: 120px;
-	color: #91FFFF;
-}
-
-
-
+/* Discography_Content */
+/************************/
+.discography_content:
 
