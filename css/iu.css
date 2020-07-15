@@ -22,6 +22,12 @@
 	margin: 5px;
 }
 
+/* Row */
+.row {
+
+
+}
+
 /* Reusable Classes END */
 /****************************************************************************/
 
@@ -58,7 +64,7 @@
 	animation: fadeInAnimation ease 3s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
-	overflow: auto;
+	overflow: hidden;
 }
 
 	.homepage_content .image {
