@@ -19,7 +19,6 @@
 	overflow: hidden;
 	border-radius: 8px;
 	margin-bottom: 5px;
-	margin: 5px;
 }
 
 /* Row */
@@ -55,7 +54,7 @@
 /************************************************************************/
 .homepage {
 	background-color: #FFFFFF;
-
+	overflow: hidden;
 }
 
 /* Homepage_Content */
@@ -64,7 +63,6 @@
 	animation: fadeInAnimation ease 3s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
-	overflow: hidden;
 }
 
 	.homepage_content .image {
