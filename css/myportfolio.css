@@ -1,10 +1,36 @@
 
-/* Setup */
-/*********************************************/
+/*********************************************
+# General
+*********************************************/
 
-body, html{
+body{
+	background: #FFFFFF;
+	color: #393232;
+	font-family: 'Quicksand';
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+
 	height: 100%;
 	margin: 0; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+h1{
+	color: #393232;
+	font-family: 'ABeeZee';	
+	font-size: 75px;
+	font-weight: 600;
+}
+
+h2{
+	color: #393232;
+	font-family: 'Quicksand';
+	font-size: 50px;
+	font-weight: 300;
 }
 
 ul {
@@ -27,10 +53,9 @@ a:active {
 	text-decoration: unset;
 }
 
-
-/* Animations */
-/*********************************************/
-
+/**********************************************
+# Animations
+*********************************************/
 
 
 
@@ -49,7 +74,7 @@ a:active {
 
 /* Containers */
 /*****************************************/
-.container-central{
+.container-center{
 	max-width: 65%;
 	margin: 100px auto;	
 	padding: 0 0;
@@ -78,17 +103,25 @@ a:active {
 	position: fixed;
 	top: -120px;
 	width: 100%;
-	padding: 20px 20px;
+	padding: 20px 0px;
 
-	transition: top 0.6s;
+	transition: top 1s;
 	z-index: 1;
+	box-shadow: 0px 10px 25px lightgrey;
 }
+
+#navbar img{
+	width: auto;
+	height: 70px;
+	margin-left: 17.5vw;
+}
+
 
 #navbar-links{
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
-	padding-right: 100px;
+	margin-right: 17.5vw;
 }
 
 #navbar-links a{
@@ -139,28 +172,7 @@ a:active {
 	transform: translate(-50%, -50%);
 }
 
-#intro-content h1{
-	font-size: 75px;
-	font-family: 'ABeeZee';	
-	color: #393232;
-	margin: 0 auto;
-}
 
-/*
-#intro-content h2{
-	margin: 0 auto;
-	overflow: hidden;
-	border-right: .05em solid orange;
-	white-space: nowrap;
-	letter-spacing: .15em;
-
-	animation-delay: 3s;
-	animation-fill-mode: forwards;
-	animation:
-		typing 3.5s steps(25, end),
-		blink-caret .75s step-end infinite;	
-}
-*/
 
 #intro-links{
 	display: flex;
@@ -180,19 +192,20 @@ a:active {
 .of-symbol{
 	background-color: black;
 	padding: 0px 4px 0px 4px;
-	height: 27px;
+	height: 26px;
 	margin: 0px 0px 0px 0px;
 	border-radius: 2px;
 	position: relative;
-	top: 3px;
+	top: 6px;
 }
 
 .of-symbol a{
 	filter:invert(1);
 	font-size: 19px;
 	position: relative;
-	bottom: 7px;
+	bottom: 10px;
 }
 
+/*****************************/
 
 
