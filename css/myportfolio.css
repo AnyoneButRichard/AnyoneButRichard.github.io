@@ -7,7 +7,7 @@ body{
 	background: #FFFFFF;
 	color: #393232;
 	font-family: 'Quicksand';
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 300;
 	letter-spacing: 0.05em;
 
@@ -33,6 +33,13 @@ h2{
 	font-weight: 300;
 }
 
+h3{
+	color: #292929;
+	font-family: 'Quicksand';
+	font-size: 20px;
+	font-weight: 600;
+}
+
 ul {
 	list-style-type: none;	
 }
@@ -55,7 +62,7 @@ a:focus {
 p {
 	margin: 0 0;
 	padding: 0;
-	font-size: 20;
+	font-size: 15px;
 	color: #999999;
 	line-height: 28px;
 }
@@ -111,7 +118,7 @@ nav{
 	box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
 }
 
-nav img{
+#navbar-logo{
 	width: auto;
 	height: 70px;
 	margin-left: 17.5vw;
@@ -180,6 +187,36 @@ nav img{
 	bottom: 10px;
 }
 
-/*****************************/
+/*************************************
+# Profile 
+*************************************/
+
+#profile{
+	margin-top: 17.5vh;
+}
+
+#profile-picture{
+	margin-left: 17.5vw;
+}
+
+#picture{
+	width: 25vw;
+	height: auto;
+	border-radius: 100%;
+	box-shadow: 1px 0px 92px 0px grey;
+}
+
+#profile-content{
+	padding: 20vh 0 0 5vw;
+	margin-right: 17.5vw;
+}
+
+#profile-content h3{
+	padding: 0 0 1rem 0;
+}
+
+
+
+
 
 
