@@ -1,4 +1,6 @@
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {
+	scrollFunction()
+};
 
 function scrollFunction(){
 	var navbar = document.getElementById("navbar");
