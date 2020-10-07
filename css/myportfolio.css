@@ -21,15 +21,15 @@ h1, h2, h3, h4, h5, h6 {
 
 h1{
 	color: #292929;
-	font-family: 'ABeeZee';	
+	font-family: 'Cormorant Garamond';	
 	font-size: 75px;
-	font-weight: 600;
+	font-weight: 300;
 }
 
 h2{
 	color: #292929;
 	font-family: 'Quicksand';
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: 300;
 }
 
@@ -52,11 +52,11 @@ a {
 
 a:hover {
 	transition: all 0.5s ease-in-out 0s;
-	color: #0007FF;	
+	color: #E0A000;	
 }
 
 a:focus {
-	color: #0007FF;
+	color: #E0A000;
 }
 
 p {
@@ -77,10 +77,12 @@ p {
 .halfpage{
 	width: 100%;
 	height: 70vh;
+	padding: 10vh 0;
 }
 
-/* Containers */
-/**************/
+/*******************************************
+# Containers and Wrappers
+*******************************************/
 .container-center{
 	max-width: 65%;
 	margin: 100px auto;	
@@ -92,7 +94,6 @@ p {
 	flex-direction: row;
 	margin: 0 auto;
 	justify-content: space-between;
-
 }
 
 .container-center{
@@ -100,8 +101,17 @@ p {
 	flex-direction: column;
 	margin: 0 auto;
 	align-items: center;
-	border: 5px solid green;
 }
+
+.container-columns{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+
+
 
 /******************************************
 # Navigation Bar
@@ -109,7 +119,6 @@ p {
 nav{
 	position: fixed;
 	background-color: #FFFFFF;
-	display: none;
 	top: -120px;
 	width: 100%;
 	padding: 20px 0px;
@@ -169,22 +178,12 @@ nav{
 	width: 50%;
 }
 
-.of-symbol{
-	background-color: black;
-	padding: 0px 4px;
-	margin: 0 0;
-	height: 26px;
-	position: relative;
-	top: 6px;
-	border-radius: 2px;
+#intro-links a:hover{
+	color: #777AAA;
 }
 
-.of-symbol a{
-	color: black;
-	filter:invert(1);
-	font-size: 19px;
-	position: relative;
-	bottom: 10px;
+#intro-links a:focus{
+
 }
 
 /*************************************
@@ -192,7 +191,6 @@ nav{
 *************************************/
 
 #profile{
-	margin-top: 17.5vh;
 }
 
 #profile-picture{
@@ -216,7 +214,66 @@ nav{
 }
 
 
+/**************************************
+# Portfolio
+***************************************/
+
+#page3{
+	background-color: rgba(248, 247, 243);
+}
+
+#portfolio-content{
+	padding-top: 10vh;
+	width: 100%;
+}
+
+#portfolio-list{
+	padding: 0 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#portfolio-list a:hover{
+	border-radius: 10px;
+	filter:blur(3px);
+	filter: brightness(70%);
+	opacity: 0.5;
+	transition: all 1s ease-in-out 0s;
+
+}
+
+#portfolio-list img{
+	height: 13vw;
+	width: 20vw;
+	padding: 10px;
+}
+
+
+/**************************************
+# Skills 
+**************************************/
+
+#page4{
+
+}
+
+#skills-content{
+	padding-top: 10vh;
+	width: 100%;
+}
+
+#skills-list{
+	padding: 0 0;
+	display: flex;
+	flex-wrap: wrap;
+}
 
 
 
+
+
+
+/*************************************
+# Tools
+*************************************/
 
