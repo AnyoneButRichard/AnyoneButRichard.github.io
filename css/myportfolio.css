@@ -274,6 +274,7 @@ nav{
 }
 
 #portfolio-list li{
+	position: relative;
 	padding: 10px;
 }
 
