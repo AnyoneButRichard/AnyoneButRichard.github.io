@@ -1,13 +1,10 @@
-window.onscroll = function() {
-	scrollFunction()
-};
-
-function scrollFunction(){
-	var navbar = document.getElementById("navbar");
-	if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
-		navbar.style.top="0";
+$(window).scroll(function()
+{
+	var scroll = $(window).scrollTop();
+	if(scroll > 200){
+		$("#navbar").slideDown(400);
 	}
 	else{
-		navbar.style.top="-120px";
+		$("#navbar").slideUp(400);
 	}
-}
+});

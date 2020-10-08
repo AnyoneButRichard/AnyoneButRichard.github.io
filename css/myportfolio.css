@@ -15,15 +15,16 @@ body{
 	margin: 0; 
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6{
 	margin: 0;
+	padding: 0;
 }
 
 h1{
 	color: #292929;
-	font-family: 'Cormorant Garamond';	
+	font-family: 'Play';	
 	font-size: 75px;
-	font-weight: 600;
+	font-weight: 300;
 }
 
 h2{
@@ -85,8 +86,8 @@ p {
 
 .quarterpage{
 	width: 100%;
-	height: 40vh;
-	padding: 10vh 0;
+	height: 20vh;
+	padding: 5vh 0 0 0;
 }
 
 /*******************************************
@@ -158,18 +159,19 @@ p {
 nav{
 	position: fixed;
 	background-color: #FFFFFF;
-	top: -120px;
 	width: 100%;
 	padding: 20px 0px;
-	transition: top 1s;
 	z-index: 1;
 	box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+}
+
+#navbar-home{
+	margin-left: 17.5vw;
 }
 
 #navbar-logo{
 	width: auto;
 	height: 70px;
-	margin-left: 17.5vw;
 }
 
 #navbar-links{
@@ -200,14 +202,23 @@ nav{
 }
 
 #intro {	
-	top: 58%;
-	left: 38%;
+	top: 57%;
+	left: 37.5%;
 	position: absolute;	
 	transform: translate(-50%, -50%);
 }
 
+#intro h1{
+	padding: 0 0 0 0;
+}
+
+#intro h3{
+	padding: 0 0 0 4px;
+	font-size: 25px;
+}
+
 #intro-links{
-	padding: 0px;
+	padding: 0;
 	margin: 10px 0px;
 	margin-left: 3px;
 	font-size: 30px;
@@ -225,6 +236,10 @@ nav{
 /*************************************
 # Profile 
 *************************************/
+
+#profile{
+	padding: 15vh 0;
+}
 
 #profile-picture{
 	margin-left: 17.5vw;
@@ -355,4 +370,27 @@ nav{
 }
 
 
+/*************************************
+# Contact
+*************************************/
 
+#contacts-content{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+#contacts-list{
+	padding: 0;
+}
+
+#contacts-icons{
+	padding: 20px 5vw;
+	font-size: 30px;
+}
+
+#contacts-content p{
+	padding-bottom: 15px;
+	font-family: 'Poppins' Helvetica;
+	text-transform: uppercase;		
+}
