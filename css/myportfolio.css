@@ -2,6 +2,9 @@
 /*********************************************
 # General
 *********************************************/
+html{
+	scroll-behavior: smooth;
+}
 
 body{
 	background: #FFFFFF;
